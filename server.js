@@ -2,7 +2,7 @@
 // =============================================================
 var express = require("express");
 var path = require("path");
-
+var PORT = process.env.PORT || 3000;
 // Sets up the Express App
 // =============================================================
 var app = express();
